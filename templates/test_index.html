@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I'm in Html file</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>received {{number}} and {{message}} from flask</p>
+    <p>Wishing you {{message, number}} times!</p>
+    {% for _ in range(number)%}
+        <p>{{message}}</p>
+    {% endfor %}
+
+</body>
+</html>
